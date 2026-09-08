@@ -18,8 +18,8 @@ func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		data := PageData{
-			Title:   "My Home Server",
-			Message: "Hello from Go!",
+			Title:   "Expense app",
+			Message: "ginko bilo ba ginko bilo ba ginko",
 		}
 
 		err := tmpl.Execute(w, data)
